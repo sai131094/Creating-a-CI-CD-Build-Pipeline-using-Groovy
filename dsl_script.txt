@@ -13,7 +13,7 @@ job("task6_job1")
   description("Pulling github repo")
   scm
   {
-      github('saurabhagarwal43800/Creating-a-CI-CD-Build-Pipeline-using-Groovy','master')
+      github('sai131094/Creating-a-CI-CD-Build-Pipeline-using-Groovy','master')
   }
   triggers
   {
@@ -83,7 +83,7 @@ fi''')
   }
   publishers
   {
- mailer("saurabhagarwal43800@gmail.com", false, false)
+ mailer("madhuragshinde@gmail.com", false, false)
   }
 }
 job("task6_job4")
